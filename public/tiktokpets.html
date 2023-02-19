@@ -1,0 +1,37 @@
+<!doctype HTML> 
+
+<HTML> 
+  
+<HEAD>
+  <meta charset="utf-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://ecs-162-spring-2022.profamenta.repl.co/reset.css" />
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Boogaloo' rel='stylesheet'>
+  <script src="tiktok.js"></script>
+</HEAD>
+
+<body> 
+  <header>
+  <h1 id="title">TikTok Pets</h1>
+  <button id ="button1" onclick = "getMyVideos()";> My Videos</button>
+  </header>
+<div id="gradient">
+  <h2 id="mainText">Submit a Video:</h1><br>
+  <div>                     
+    <label for="user">Username:</label>
+      <input placeholder="awesometiktokuser123" type="text" id="user" name="videoData">
+    <label for="url">Tiktok URL:</label>
+      <input placeholder="https://tiktok.com/12345" type="text" id="url" name="videoData">
+    <label for="user">Video Nickname:</label>
+      <input placeholder="coolvideo12345678" type="text" id="video" name="videoData">
+  </div>
+</div>
+<button id ="button2" onclick = "getUserInput()";>Continue</button><br>
+ 
+</body>
+
+</html> 

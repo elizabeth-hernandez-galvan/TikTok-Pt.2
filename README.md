@@ -1,6 +1,8 @@
 # TikTok-Pt.2
 Build a game in which a player sees a pair of tiktok videos, and chooses which one is better.
 
+View Current Stage: https://tiktok2.ecs162-s22.repl.co/
+
 ## Previous Stage
 | <a href="https://github.com/elizabeth-hernandez-galvan/TikTok-Pt.2">Stage 1</a>           | 
 | ------------- |
